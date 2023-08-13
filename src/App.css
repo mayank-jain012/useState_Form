@@ -1,0 +1,40 @@
+.App {
+  margin-top: 8rem;
+  margin-left: 30rem;
+}
+
+.sub-app {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  background-color: black;  
+}
+.sub-app :last-child{
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+  padding-top:0.5rem;
+  text-align: center;
+
+}
+
+.Form p {
+  color: whitesmoke;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 20px;
+}
+.Form input{
+  width: 290px;
+  height: 25px;
+  border-radius: 5px;
+}
